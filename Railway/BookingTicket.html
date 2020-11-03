@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Railways</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+<body style="background-color:aquamarine">
+
+
+    <header style="background-color:cornflowerblue">
+        <img src="Image/train logo.png" alt="Indian Railways Logo" width="80" height="90" align="left" />
+        <img src="Image/Namsta.jpg" alt="Namaste image" width="80" height="90" align="right" />
+        <center><h1>Indian Railways <br /><marquee scrollamount="10">Welcome to Indian Railways</marquee></h1></center>
+
+    </header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: -webkit-sticky; /* Safari */ position: sticky; top: 0;">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="TicketBooking.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="FareEnquery.html">Fare Enquiry</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="BookingTicket.html">Ticket Booking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="CancellTicket.html">Cancel Ticket</a>
+                </li>
+
+            </ul>
+        </div>
+        <div>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item" style="float:right">
+                    <a class="nav-link" href="Login.html" style="float:right">Login</a>
+                </li>
+                <li class="nav-item" style="float:right">
+                    <a class="nav-link" href="SignUp.html" style="float:right">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <br /><br /><br /><br />
+
+
+    <form style="position:center">
+        <div class="signup-form bg-dark" style="background-color:coral;margin-left:10%">
+            <div class="Signup-head bg-warning">
+                <h1 style="margin-left:80px">BOOK YOUR TICKET</h1>
+            </div>
+
+            <div class="signup-content" style="background-color:coral;position:center">
+
+                <input type="radio" class="radio" name="r" />&nbsp; &nbsp;
+                <label class="text-white">One Way</label>&nbsp; &nbsp;&nbsp;
+                <input type="radio" class="radio" name="r" />&nbsp; &nbsp;
+                <label class="text-white">Return</label>
+
+
+            </div>
+            <div class="signup-content2" style="background-color:coral;position:center">
+                <input type="text" style="margin-left:5px" placeholder="From " class="input bg-dark">&nbsp; &nbsp;&nbsp;
+                <input type="text" placeholder="To " class="input bg-dark"><br /><br />
+
+                <label class="text-white" style="margin-left:5px">Depart</label>
+                <input type="date" class="tarikh bg-dark text-white  " />
+                <label class="text-white" style="margin-left:10px">Returns</label>
+                <input type="date" class="tarikh bg-dark text-white" /> <br /><br />
+
+                <input type="number" class="bg-dark " style="margin-left:5px" placeholder="Adults" />
+                <input type="number" class="bg-dark " style="margin-left:10px" placeholder="Children" />
+                <br /><br />
+                <label class="text-white" style="margin-left:5px">Travel Class</label>
+                <select style="margin-left:5px">
+                    <option>First Class/1A</option>
+                    <option>AC 2tier/2A</option>
+                    <option>AC 3tier/3A</option>
+                    <option>Executive class</option>
+                    <option>AC chair car</option>
+                    <option>Sleeper Class</option>
+                    <option>Second Class</option>
+
+                </select>
+                <br /><br />
+
+
+            </div>
+        </div>
+    </form>
+    <form action="/Payment.html" class="inline">
+        <button type="submit" id="myButton" on style="margin-left:40%" value="Go to Pyment" class="submit-btn bg-warning">Go to Pyment</button>
+    </form>
+
+    <br /><br /><br /><br /><br /><br />
+
+
+    <footer class="page-footer-section bg-dark fg-white">
+        <div class="container">
+            <div class="row mb-0 py-3">
+                <div class="col-md-6 col-lg-4 py-3">
+                    <center><h3>&copy;Copyrights 2020. All rights reserved.</h3></center>
+                    <h5 class="mb-3">Contact</h5>
+                    <ul class="menu-link">
+                        <li><a href="#" class="">Contact Us</a></li>
+                        <li><a href="#" class="">Kalupur Railway station,Ahmedabad</a></li>
+                        <li><a href="#" class="">irctc@gmail..com</a></li>
+                        <li><a href="#" class="">support@irctc.gmail.com</a></li>
+                        <li><a href="#" class="">+918 11233 900</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-4 py-3">
+                    <h5 class="mb-3">Register</h5>
+                    <a href="https://www.facebook.com/" target="blank"><img src="Image/facebook.jpg.jpg" alt="Facebook" style="float:right" width="40" height="40" title="Facebook" /></a>
+                    <a href="https://www.instagram.com/" target="blank"><img src="Image/instagram.jpg.jpg" alt="Instagram" style="float:right" width="40" height="40" title="Instagram" /></a>
+
+                    <p>Get some offers, news, or update features of New Trains</p>
+                    <form method="POST">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Your email..">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary"><span class="mai-send"></span></button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+
+    </footer>
+
+
+</body>
+</html>
